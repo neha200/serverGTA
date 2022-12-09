@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'http://localhost:9090'
+    baseURL: 'https://gta-server-connect.onrender.com'
 });

@@ -6,7 +6,7 @@ const cors=require("cors")
 // const taskRoutes=require("./routes/task/TaskRoutes")
 
 const app = express();
-const port = 9090;
+const port = process.env.PORT || 9090;
 app.use(cors())
 // custom middleware logger
 
